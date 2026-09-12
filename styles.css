@@ -297,6 +297,11 @@ p{ margin:0; }
   background:var(--coral); color:var(--white); font-family:var(--font-display); font-weight:700;
   font-size:13px; padding:9px 16px; border-radius:999px; box-shadow:0 10px 24px -10px rgba(255,107,74,.7);
 }
+.sample-example-tag{
+  position:absolute; top:16px; right:16px; z-index:2;
+  background:rgba(23,50,77,.75); backdrop-filter:blur(6px); color:var(--white); font-weight:700;
+  font-size:10.5px; letter-spacing:.06em; padding:8px 13px; border-radius:999px;
+}
 .sample-media-row{ display:grid; grid-template-columns:repeat(3,1fr); gap:12px; height:96px; }
 .sample-media-row img{ width:100%; height:100%; object-fit:cover; border-radius:12px; }
 
