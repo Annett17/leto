@@ -117,14 +117,15 @@ p{ margin:0; }
 .header-inner{ display:flex; align-items:center; justify-content:space-between; gap:24px; }
 
 .logo{
-  font-family:var(--font-display); font-weight:800; font-size:27px; line-height:1.08;
+  display:block;
+  font-family:var(--font-display); font-weight:800; font-size:27px; line-height:1.12;
   color:var(--white); letter-spacing:-0.01em; transition:color .35s ease;
-  max-width:220px; text-shadow:0 4px 18px rgba(0,0,0,.2);
+  text-shadow:0 4px 18px rgba(0,0,0,.2); white-space:nowrap;
 }
 .site-header.scrolled .logo{ color:var(--navy); }
 .logo-accent{ color:var(--sunset); }
 .logo-dot{ color:var(--sunset); }
-.logo--footer{ color:var(--white); max-width:260px; font-size:30px; }
+.logo--footer{ color:var(--white); font-size:30px; }
 
 .main-nav{ display:flex; gap:32px; }
 .main-nav a{
