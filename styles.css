@@ -116,7 +116,7 @@ p{ margin:0; }
 }
 .header-inner{ display:flex; align-items:center; justify-content:space-between; gap:24px; }
 
-.logo{ font-family:var(--font-display); font-weight:800; font-size:24px; color:var(--white); letter-spacing:-0.02em; transition:color .35s ease; }
+.logo{ font-family:var(--font-display); font-weight:800; font-size:20px; color:var(--white); letter-spacing:-0.02em; transition:color .35s ease; white-space:nowrap; }
 .site-header.scrolled .logo{ color:var(--navy); }
 .logo-dot{ color:var(--sunset); }
 .logo--footer{ color:var(--white); }
